@@ -15,7 +15,7 @@ int main() {
        name[strlen(name) -1] = '\0';
     }
     printf("Hello %s, how are you today!\n", name);
-    printf("Thanks you may now procced");
+    printf("i am very ready");
     return 0;
 }
 // // THE CODE FORCES A USER TO ENTER A USER NAME TO PROCEED  ENDS HERE
