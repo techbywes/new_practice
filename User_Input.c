@@ -11,11 +11,11 @@ int main() {
     {
        printf("You didnt enter your name!\n");
        printf("What is your name: ");
+
        fgets(name, 25, stdin);
        name[strlen(name) -1] = '\0';
     }
     printf("Hello %s, how are you today!\n", name);
-    printf("i am very ready");
     return 0;
 }
 // // THE CODE FORCES A USER TO ENTER A USER NAME TO PROCEED  ENDS HERE
